@@ -1,0 +1,21 @@
+body{
+    background-color:#D3E4CD;
+}
+
+#table{
+    
+}
+#table td{
+    
+    padding: 10px;
+    margin-left: 20px;
+    
+}
+#t2{
+    border: #000 1px solid;
+}
+#t2 td{
+     border: #000 1px solid;
+     padding: 10px;
+    
+}
