@@ -13,35 +13,21 @@ body{
     font-family:monospace;
     background-color: #f26969;
     padding: 20px;
-}
-#text{
-    padding: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:10px;
 }
 
-#imageC{
-    text-align: center;
-    margin-bottom: 20px;
-    
-
-}
-#imageC img{
-    border-radius: 20px;
-   
-}
 #login{
     background-color: #f84e4e;
     text-align: center;
-    padding: 20px;
-    
-
+    display: flex;    
+    justify-content: center;
 }
 #login2{
     background-color: #F9E7B2;
-    width: 60%;
-    margin: auto;
-    padding: 40px;
+    
+    padding: 50px;
     border-radius: 10px;
+    margin: 20px;
 }
 
 #login #login2 #inputs label{
@@ -106,16 +92,18 @@ body{
 }
 
 nav{
-    background-color :bisque;
+    background-color : #f26969;
     text-align: center;
     position: sticky;
     top: 0;
+    display: flex;
+    align-items: center;
 }
 nav ul{
     list-style-type: none;
     display: flex;
     justify-content: center;
-    background-color: brown;
+    background-color:  #f26969;
     font-size: 18px;
  
     color: white;
@@ -131,4 +119,40 @@ nav ul li:hover{
     color: black;
     font-weight: bold;
     background-color: #f84e4e;
+}
+
+header
+{
+    background-color: #f26969;
+    display: flex;
+    justify-content: space-between;
+}
+
+#hero{
+    
+    padding: 10px;
+    display: flex;
+}
+#text{
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    width: 50%;
+    height: 100%;
+}
+
+#imageC{
+    text-align: center;
+ 
+   
+    width: 50%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#imageC img{
+    border-radius: 20px;
+   
 }

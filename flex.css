@@ -1,0 +1,29 @@
+#body{
+
+width: 95%;
+margin: auto;
+height: 600px;
+background-color: aqua;  
+display: flex;  
+justify-content: center;    /* possibility:6 */
+align-items: center;      /* possibility:5 */
+}
+#box1{
+
+    width: 200px;
+    height: 200px;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;    /* possibility:6 */
+    align-items: center;      /* possibility:5 */
+}
+#box2{
+
+    width: 200px;
+    height: 200px;
+    background-color: rgb(220, 161, 50);
+}
+
+section{
+    background-color: lightgrey;
+}
